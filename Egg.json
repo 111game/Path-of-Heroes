@@ -1,0 +1,16 @@
+{ "skeleton": { "images": "C:/Users/86139/Desktop/Photoshop/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "图层 1", "bone": "root", "attachment": "图层 1" }
+],
+"skins": {
+	"default": {
+		"图层 1": {
+			"图层 1": { "x": 107, "y": -101.5, "width": 60, "height": 93 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

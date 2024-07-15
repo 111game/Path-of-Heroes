@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bd4jmmt4xlwao"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_qfing"]
+
+[node name="TextureRect" type="TextureRect"]
+offset_left = 723.0
+offset_right = 1930.0
+offset_bottom = 105.0
+texture = SubResource("CanvasTexture_qfing")

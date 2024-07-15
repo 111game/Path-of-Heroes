@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxku1rxq55fxq"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_kgnw3"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 7.0
+offset_top = 17.0
+offset_right = 7.0
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+modulate = Color(0.314714, 0.00849821, 0.269776, 1)
+layout_mode = 0
+offset_left = 448.0
+offset_top = 266.0
+offset_right = 963.0
+offset_bottom = 683.0
+texture = SubResource("CanvasTexture_kgnw3")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+modulate = Color(0.314714, 0.00849821, 0.269776, 1)
+layout_mode = 0
+offset_left = 1117.0
+offset_top = 461.0
+offset_right = 1632.0
+offset_bottom = 878.0
+texture = SubResource("CanvasTexture_kgnw3")
