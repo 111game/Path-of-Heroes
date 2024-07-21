@@ -1,10 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://ctjyb5yjhdnns"]
+[gd_scene load_steps=6 format=3 uid="uid://c08m66xjbiif1"]
 
 [ext_resource type="Texture2D" uid="uid://23wiuvarphap" path="res://icon.svg" id="1_crhyb"]
 [ext_resource type="Texture2D" uid="uid://bpjw72k8yme3h" path="res://BlueLightning.png" id="2_fdwa1"]
 [ext_resource type="Script" path="res://new_script.cs" id="2_gsl26"]
 [ext_resource type="Texture2D" uid="uid://dcqsepo1mgg67" path="res://BlueLightnin11g.png" id="3_offdl"]
-[ext_resource type="PackedScene" uid="uid://bd4jmmt4xlwao" path="res://texture_rect.tscn" id="5_d2rta"]
+[ext_resource type="PackedScene" path="res://texture_rect.tscn" id="5_d2rta"]
 
 [node name="Node2D" type="Node2D"]
 
