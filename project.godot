@@ -12,9 +12,16 @@ config_version=5
 
 config/name="Path-of-Heroes"
 config/version="1.0"
-run/main_scene="res://Scenes/MainScene.tscn"
+run/main_scene="res://game/scenes/LoadingScreen/LoadingScreen.tscn"
 config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://Assets/Texture/icon.svg"
+
+[autoload]
+
+AppConfig="*res://addons/maaacks_game_template/base/scenes/Autoloads/AppConfig.tscn"
+SceneLoader="*res://addons/maaacks_game_template/base/scenes/Autoloads/SceneLoader.tscn"
+ProjectMusicController="*res://addons/maaacks_game_template/base/scenes/Autoloads/ProjectMusicController.tscn"
+ProjectUISoundController="*res://addons/maaacks_game_template/base/scenes/Autoloads/ProjectUISoundController.tscn"
 
 [display]
 
@@ -27,3 +34,12 @@ window/stretch/aspect="expand"
 [dotnet]
 
 project/assembly_name="Path-of-Heroes"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/maaacks_game_template/plugin.cfg")
+
+[maaacks_game_template]
+
+disable_plugin_dialogues=true
+copy_path="res://game"
