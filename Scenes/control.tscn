@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://dxku1rxq55fxq"]
+[gd_scene load_steps=3 format=3 uid="uid://dxku1rxq55fxq"]
+
+[ext_resource type="Script" path="res://Scripts/control.cs" id="1_it1hr"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_kgnw3"]
 
@@ -13,21 +15,25 @@ offset_right = 7.0
 offset_bottom = 17.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_it1hr")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 modulate = Color(0.314714, 0.00849821, 0.269776, 1)
 layout_mode = 0
-offset_left = 448.0
-offset_top = 266.0
-offset_right = 963.0
-offset_bottom = 683.0
+offset_left = -7.0
+offset_top = -17.0
+offset_right = 1913.0
+offset_bottom = 83.0
 texture = SubResource("CanvasTexture_kgnw3")
 
-[node name="TextureRect2" type="TextureRect" parent="."]
-modulate = Color(0.314714, 0.00849821, 0.269776, 1)
+[node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 1117.0
-offset_top = 461.0
-offset_right = 1632.0
-offset_bottom = 878.0
-texture = SubResource("CanvasTexture_kgnw3")
+offset_left = 705.0
+offset_top = 63.0
+offset_right = 1162.0
+offset_bottom = 207.0
+theme_override_colors/font_color = Color(1, 0.768627, 0.831373, 1)
+theme_override_font_sizes/font_size = 100
+text = "null"
+horizontal_alignment = 1
+vertical_alignment = 1

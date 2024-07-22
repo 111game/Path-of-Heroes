@@ -1,3 +1,3 @@
 # Path-of-Heroes
 
-ok go in editor
+start function test and prepare
