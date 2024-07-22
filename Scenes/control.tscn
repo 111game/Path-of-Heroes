@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://dxku1rxq55fxq"]
+[gd_scene load_steps=4 format=3 uid="uid://dxku1rxq55fxq"]
 
 [ext_resource type="Script" path="res://Scripts/control.cs" id="1_it1hr"]
+[ext_resource type="Script" path="res://Scripts/LableShow.cs" id="2_hm0de"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_kgnw3"]
 
@@ -30,10 +31,12 @@ texture = SubResource("CanvasTexture_kgnw3")
 layout_mode = 0
 offset_left = 705.0
 offset_top = 63.0
-offset_right = 1162.0
+offset_right = 1369.0
 offset_bottom = 207.0
 theme_override_colors/font_color = Color(1, 0.768627, 0.831373, 1)
-theme_override_font_sizes/font_size = 100
+theme_override_font_sizes/font_size = 45
 text = "null"
 horizontal_alignment = 1
 vertical_alignment = 1
+autowrap_mode = 2
+script = ExtResource("2_hm0de")

@@ -1,11 +1,12 @@
 using Godot;
 using System;
-
-public partial class control : Control
+using MySpace;
+public partial class LableShow : Label
 {
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
+		Text = FileManager.Instance.UserPath;
 		
 	}
 
