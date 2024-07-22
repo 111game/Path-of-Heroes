@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcqsepo1mgg67"
-path="res://.godot/imported/BlueLightnin11g.png-eaa4a7e1e5d1a4b45c752d701b4c85d9.ctex"
+uid="uid://cb8dm0u8olg4r"
+path="res://.godot/imported/planet02.png-7421d84a0977148f34ae96d7a44e8385.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://BlueLightnin11g.png"
-dest_files=["res://.godot/imported/BlueLightnin11g.png-eaa4a7e1e5d1a4b45c752d701b4c85d9.ctex"]
+source_file="res://Assets/Texture/planet02.png"
+dest_files=["res://.godot/imported/planet02.png-7421d84a0977148f34ae96d7a44e8385.ctex"]
 
 [params]
 

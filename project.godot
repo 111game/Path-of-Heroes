@@ -12,16 +12,18 @@ config_version=5
 
 config/name="Path-of-Heroes"
 config/version="1.0"
-run/main_scene="res://node_3d.tscn"
+run/main_scene="res://Scenes/MainScene.tscn"
 config/features=PackedStringArray("4.2", "C#", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Assets/Texture/icon.svg"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/size/mode=2
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
 
 [dotnet]
 
-project/assembly_name="Game_Test"
+project/assembly_name="Path-of-Heroes"

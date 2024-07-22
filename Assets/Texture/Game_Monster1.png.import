@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpjw72k8yme3h"
-path="res://.godot/imported/BlueLightning.png-f549b91a5a23f02d94ce7eaf98bc9456.ctex"
+uid="uid://bw2qj1pcm54tb"
+path="res://.godot/imported/Game_Monster1.png-aee43a6e94e80689e678657ae36f1780.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://BlueLightning.png"
-dest_files=["res://.godot/imported/BlueLightning.png-f549b91a5a23f02d94ce7eaf98bc9456.ctex"]
+source_file="res://Assets/Texture/Game_Monster1.png"
+dest_files=["res://.godot/imported/Game_Monster1.png-aee43a6e94e80689e678657ae36f1780.ctex"]
 
 [params]
 
