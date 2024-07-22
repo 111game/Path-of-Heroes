@@ -16,13 +16,6 @@ run/main_scene="res://Scenes/MainScene.tscn"
 config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://Assets/Texture/icon.svg"
 
-[autoload]
-
-;AppConfig="*res://addons/maaacks_game_template/base/scenes/Autoloads/AppConfig.tscn"
-;SceneLoader="*res://addons/maaacks_game_template/base/scenes/Autoloads/SceneLoader.tscn"
-;;ProjectMusicController="*res://addons/maaacks_game_template/base/scenes/Autoloads/ProjectMusicController.tscn"
-;ProjectUISoundController="*res://addons/maaacks_game_template/base/scenes/Autoloads/ProjectUISoundController.tscn"
-
 [display]
 
 window/size/viewport_width=1920
