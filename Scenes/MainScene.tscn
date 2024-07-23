@@ -8,15 +8,22 @@
 [node name="Main" type="Node2D"]
 
 [node name="Grass4" type="Sprite2D" parent="."]
-position = Vector2(280, 111)
+position = Vector2(-632, -288)
+scale = Vector2(1.97692, 2.38281)
 texture = ExtResource("1_f83hb")
 
 [node name="GameMoster2" type="Sprite2D" parent="."]
-position = Vector2(784, 191)
+position = Vector2(-176, -352.5)
 texture = ExtResource("2_te6bb")
 
 [node name="Bottle" type="Sprite2D" parent="."]
-position = Vector2(1857, 1117)
+position = Vector2(897, 573.5)
 texture = ExtResource("3_wv2g0")
 
 [node name="Control" parent="." instance=ExtResource("4_7o70x")]
+offset_left = -960.0
+offset_top = -540.0
+offset_right = -960.0
+offset_bottom = -540.0
+
+[node name="Camera2D" type="Camera2D" parent="."]

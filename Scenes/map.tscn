@@ -1,6 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://cwjh6ml1ty8br"]
-
-[ext_resource type="Texture2D" uid="uid://v064hd5ocqh" path="res://Assets/Texture/Back_4.png" id="1_qnanp"]
+[gd_scene format=3 uid="uid://cwjh6ml1ty8br"]
 
 [node name="Map" type="Node2D"]
 
@@ -24,124 +22,124 @@ vertical_alignment = 1
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(134, 938)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 position = Vector2(453, 919)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D3" type="Sprite2D" parent="."]
 position = Vector2(813, 931)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D4" type="Sprite2D" parent="."]
 position = Vector2(1098, 945)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D5" type="Sprite2D" parent="."]
 position = Vector2(1424, 940)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D6" type="Sprite2D" parent="."]
 position = Vector2(216.75, 726.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D7" type="Sprite2D" parent="."]
 position = Vector2(535.75, 707.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D8" type="Sprite2D" parent="."]
 position = Vector2(895.75, 719.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D9" type="Sprite2D" parent="."]
 position = Vector2(1180.75, 733.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D10" type="Sprite2D" parent="."]
 position = Vector2(1506.75, 728.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D11" type="Sprite2D" parent="."]
 position = Vector2(252.75, 526.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D12" type="Sprite2D" parent="."]
 position = Vector2(571.75, 507.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D13" type="Sprite2D" parent="."]
 position = Vector2(931.75, 519.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D14" type="Sprite2D" parent="."]
 position = Vector2(1216.75, 533.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D15" type="Sprite2D" parent="."]
 position = Vector2(1554, 562)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D16" type="Sprite2D" parent="."]
 position = Vector2(361.75, 347.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D17" type="Sprite2D" parent="."]
 position = Vector2(680.75, 328.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D18" type="Sprite2D" parent="."]
 position = Vector2(1040.75, 340.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D19" type="Sprite2D" parent="."]
 position = Vector2(1325.75, 354.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D20" type="Sprite2D" parent="."]
 position = Vector2(1651.75, 349.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D21" type="Sprite2D" parent="."]
 position = Vector2(454.75, 174.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D22" type="Sprite2D" parent="."]
 position = Vector2(773.75, 155.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D23" type="Sprite2D" parent="."]
 position = Vector2(1133.75, 167.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D24" type="Sprite2D" parent="."]
 position = Vector2(1418.75, 181.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null
 
 [node name="Sprite2D25" type="Sprite2D" parent="."]
 position = Vector2(1744.75, 176.5)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_qnanp")
+texture = null

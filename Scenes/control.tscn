@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://dxku1rxq55fxq"]
+[gd_scene load_steps=6 format=3 uid="uid://dxku1rxq55fxq"]
 
 [ext_resource type="Script" path="res://Scripts/control.cs" id="1_it1hr"]
 [ext_resource type="Script" path="res://Scripts/LableShow.cs" id="2_hm0de"]
 [ext_resource type="Script" path="res://Scripts/Button.cs" id="3_1njx8"]
+[ext_resource type="Texture2D" uid="uid://8gjd23hbvdjw" path="res://Assets/Texture/grass.png" id="4_fvb3e"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_kgnw3"]
 
@@ -11,29 +12,18 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 7.0
-offset_top = 17.0
-offset_right = 7.0
-offset_bottom = 17.0
+offset_right = -1920.0
+offset_bottom = -1080.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_it1hr")
 
-[node name="TextureRect" type="TextureRect" parent="."]
-modulate = Color(0.314714, 0.00849821, 0.269776, 1)
-layout_mode = 0
-offset_left = -7.0
-offset_top = -17.0
-offset_right = 1913.0
-offset_bottom = 83.0
-texture = SubResource("CanvasTexture_kgnw3")
-
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 705.0
-offset_top = 63.0
-offset_right = 1369.0
-offset_bottom = 207.0
+offset_left = 680.0
+offset_top = 104.0
+offset_right = 1344.0
+offset_bottom = 248.0
 theme_override_colors/font_color = Color(1, 0.768627, 0.831373, 1)
 theme_override_font_sizes/font_size = 45
 text = "null"
@@ -51,3 +41,36 @@ offset_bottom = 502.0
 theme_override_font_sizes/font_size = 40
 text = "start"
 script = ExtResource("3_1njx8")
+
+[node name="Panel" type="Panel" parent="."]
+self_modulate = Color(0.255003, 0.49366, 0.812116, 1)
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 120.0
+
+[node name="TextureRect" type="TextureRect" parent="Panel"]
+modulate = Color(0.866667, 0.952941, 0.968627, 1)
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 120.0
+texture = SubResource("CanvasTexture_kgnw3")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+layout_mode = 0
+offset_left = 168.0
+offset_right = 1000.0
+offset_bottom = 296.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 40
+bbcode_enabled = true
+text = "111[img  width=60 height=60]res://Assets/Texture/33.png[/img]222
+22222222111
+3131231"
+tab_size = 1
+
+[node name="TextureRect2" type="TextureRect" parent="Panel"]
+layout_mode = 0
+offset_right = 120.0
+offset_bottom = 120.0
+texture = ExtResource("4_fvb3e")
+expand_mode = 1
