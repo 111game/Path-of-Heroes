@@ -30,7 +30,7 @@ project/assembly_name="Path-of-Heroes"
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/my_plugin2/plugin.cfg", "res://addons/testplugin/plugin.cfg")
 
 [maaacks_game_template]
 
