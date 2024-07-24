@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://cwjh6ml1ty8br"]
+[gd_scene load_steps=2 format=3 uid="uid://cwjh6ml1ty8br"]
+
+[ext_resource type="Texture2D" uid="uid://b0ityh85djrgo" path="res://Assets/Texture/grass1.png" id="1_1ucwx"]
 
 [node name="Map" type="Node2D"]
 
@@ -10,136 +12,138 @@ offset_bottom = 40.0
 
 [node name="Label" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 804.0
-offset_top = 45.0
-offset_right = 1038.0
-offset_bottom = 109.0
+offset_left = -101.0
+offset_top = -501.0
+offset_right = 133.0
+offset_bottom = -437.0
 theme_override_font_sizes/font_size = 40
-text = "World Map"
+text = "World Map1312321qq"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(134, 938)
+position = Vector2(-771.25, 406)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(453, 919)
+position = Vector2(-452.25, 387)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D3" type="Sprite2D" parent="."]
-position = Vector2(813, 931)
+position = Vector2(-92.2499, 399)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D4" type="Sprite2D" parent="."]
-position = Vector2(1098, 945)
+position = Vector2(192.75, 413)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D5" type="Sprite2D" parent="."]
-position = Vector2(1424, 940)
+position = Vector2(518.75, 408)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D6" type="Sprite2D" parent="."]
-position = Vector2(216.75, 726.5)
+position = Vector2(-688.5, 194.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D7" type="Sprite2D" parent="."]
-position = Vector2(535.75, 707.5)
+position = Vector2(-369.5, 175.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D8" type="Sprite2D" parent="."]
-position = Vector2(895.75, 719.5)
+position = Vector2(-9.49994, 187.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D9" type="Sprite2D" parent="."]
-position = Vector2(1180.75, 733.5)
+position = Vector2(275.5, 201.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D10" type="Sprite2D" parent="."]
-position = Vector2(1506.75, 728.5)
+position = Vector2(601.5, 196.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D11" type="Sprite2D" parent="."]
-position = Vector2(252.75, 526.5)
+position = Vector2(-652.5, -5.50012)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D12" type="Sprite2D" parent="."]
-position = Vector2(571.75, 507.5)
+position = Vector2(-333.5, -24.5001)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D13" type="Sprite2D" parent="."]
-position = Vector2(931.75, 519.5)
+position = Vector2(26.5001, -12.5001)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D14" type="Sprite2D" parent="."]
-position = Vector2(1216.75, 533.5)
+position = Vector2(311.5, 1.49988)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D15" type="Sprite2D" parent="."]
-position = Vector2(1554, 562)
+position = Vector2(648.75, 29.9999)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D16" type="Sprite2D" parent="."]
-position = Vector2(361.75, 347.5)
+position = Vector2(-543.5, -184.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D17" type="Sprite2D" parent="."]
-position = Vector2(680.75, 328.5)
+position = Vector2(-224.5, -203.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D18" type="Sprite2D" parent="."]
-position = Vector2(1040.75, 340.5)
+position = Vector2(135.5, -191.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D19" type="Sprite2D" parent="."]
-position = Vector2(1325.75, 354.5)
+position = Vector2(420.5, -177.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D20" type="Sprite2D" parent="."]
-position = Vector2(1651.75, 349.5)
+position = Vector2(746.5, -182.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D21" type="Sprite2D" parent="."]
-position = Vector2(454.75, 174.5)
+position = Vector2(-450.5, -357.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D22" type="Sprite2D" parent="."]
-position = Vector2(773.75, 155.5)
+position = Vector2(-131.5, -376.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D23" type="Sprite2D" parent="."]
-position = Vector2(1133.75, 167.5)
+position = Vector2(228.5, -364.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D24" type="Sprite2D" parent="."]
-position = Vector2(1418.75, 181.5)
+position = Vector2(513.5, -350.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D25" type="Sprite2D" parent="."]
-position = Vector2(1744.75, 176.5)
+position = Vector2(839.5, -355.5)
 scale = Vector2(1.48182, 1.48333)
-texture = null
+texture = ExtResource("1_1ucwx")
+
+[node name="Camera2D" type="Camera2D" parent="."]

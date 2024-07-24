@@ -15,7 +15,7 @@ namespace MySpace
             string projectRoot = ProjectSettings.GlobalizePath("res://");
             GD.Print("projectRoot " + projectRoot);
             // 组合成目标文件路径
-            UserPath = Path.Combine(path1: projectRoot,"User/");
+            UserPath = Path.Combine(path1: projectRoot,"User");
 
             GD.Print("User Path: " + UserPath);
 
@@ -35,17 +35,24 @@ namespace MySpace
         }
         void loadFile()
         {
+            //判断user文件夹是否存在
+            if(!Directory.Exists(UserPath))
+            {
+                Directory.CreateDirectory(UserPath);
+            }
+            // GD.Print(UserPath);
             string filePath=Path.Combine(path1: UserPath,"111.txt");
+            // GD.Print("filePath"+filePath);
             if (File.Exists(filePath))
             {
-                using (StreamWriter t_StreamReader = new StreamWriter(UserPath+ "111exist.txt"))
+                using (StreamWriter t_StreamReader = new StreamWriter(UserPath+ "/111exist.txt"))
                 {
 
                 }
             }
             else
             {
-                using (StreamWriter t_StreamReader = new StreamWriter(UserPath+ "111noexist.txt"))
+                using (StreamWriter t_StreamReader = new StreamWriter(UserPath+ "/111noexist.txt"))
                 {
 
                 }
