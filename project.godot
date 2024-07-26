@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Path-of-Heroes"
 config/version="1.0"
-run/main_scene="res://Scenes/MainScene.tscn"
+run/main_scene="res://Scenes/LoadScene.tscn"
 config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://Assets/Texture/icon.svg"
 
@@ -30,9 +30,13 @@ project/assembly_name="Path-of-Heroes"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/my_plugin2/plugin.cfg", "res://addons/testplugin/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot-box2d/plugin.cfg")
 
 [maaacks_game_template]
 
 disable_plugin_dialogues=true
 copy_path="res://game"
+
+[physics]
+
+2d/physics_engine="Box2D"

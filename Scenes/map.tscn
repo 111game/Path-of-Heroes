@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://cwjh6ml1ty8br"]
+[gd_scene load_steps=4 format=3 uid="uid://cwjh6ml1ty8br"]
 
 [ext_resource type="Texture2D" uid="uid://b0ityh85djrgo" path="res://Assets/Texture/grass1.png" id="1_1ucwx"]
+[ext_resource type="Texture2D" uid="uid://bux6fjpoyrsbr" path="res://Assets/Texture/grass2.png" id="1_mipii"]
+[ext_resource type="Texture2D" uid="uid://c2ase6jqsm06e" path="res://Assets/Images/rrr.svg" id="3_pyti4"]
 
 [node name="Map" type="Node2D"]
 
@@ -24,7 +26,7 @@ vertical_alignment = 1
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-771.25, 406)
 scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_1ucwx")
+texture = ExtResource("1_mipii")
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 position = Vector2(-452.25, 387)
@@ -95,6 +97,7 @@ texture = ExtResource("1_1ucwx")
 position = Vector2(648.75, 29.9999)
 scale = Vector2(1.48182, 1.48333)
 texture = ExtResource("1_1ucwx")
+region_rect = Rect2(0, 0, 71.5, 68)
 
 [node name="Sprite2D16" type="Sprite2D" parent="."]
 position = Vector2(-543.5, -184.5)
@@ -117,9 +120,9 @@ scale = Vector2(1.48182, 1.48333)
 texture = ExtResource("1_1ucwx")
 
 [node name="Sprite2D20" type="Sprite2D" parent="."]
-position = Vector2(746.5, -182.5)
-scale = Vector2(1.48182, 1.48333)
-texture = ExtResource("1_1ucwx")
+position = Vector2(743, -154)
+scale = Vector2(0.543773, 0.482665)
+texture = ExtResource("3_pyti4")
 
 [node name="Sprite2D21" type="Sprite2D" parent="."]
 position = Vector2(-450.5, -357.5)
