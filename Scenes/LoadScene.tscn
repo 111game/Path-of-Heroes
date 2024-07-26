@@ -1,11 +1,19 @@
-[gd_scene load_steps=6 format=3 uid="uid://bsvf21fbudyp2"]
+[gd_scene load_steps=10 format=3 uid="uid://bsvf21fbudyp2"]
 
 [ext_resource type="Texture2D" uid="uid://cb8dm0u8olg4r" path="res://Assets/Texture/planet02.png" id="1_v8lor"]
 [ext_resource type="Texture2D" uid="uid://f2mbaawfbyjk" path="res://Assets/Texture/Game_Monster_4.png" id="2_ueyo3"]
 [ext_resource type="Texture2D" uid="uid://23wiuvarphap" path="res://Assets/Texture/icon.svg" id="3_bkcem"]
+[ext_resource type="Texture2D" uid="uid://cccpq3qqmilnf" path="res://Assets/Texture/planet03.png" id="5_63ebv"]
 [ext_resource type="PackedScene" uid="uid://bp3l7opva6g7s" path="res://prefabs/MyObject.tscn" id="5_w48he"]
+[ext_resource type="Texture2D" uid="uid://cumyyq3yab2bh" path="res://Assets/Texture/agree_wood.png" id="6_f0jkk"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_hv5ji"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q7wv5"]
+size = Vector2(1752, 50)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ipn0r"]
+radius = 72.4431
 
 [node name="LoadScene" type="Node2D"]
 y_sort_enabled = true
@@ -65,4 +73,52 @@ position = Vector2(-544, -456)
 position = Vector2(-304, 272)
 physics_material_override = SubResource("PhysicsMaterial_hv5ji")
 
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(292, 15)
+shape = SubResource("RectangleShape2D_q7wv5")
+debug_color = Color(0, 0.529412, 0.992157, 1)
+
+[node name="Sprite2D2" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(292, 16)
+scale = Vector2(2.5988, 0.119107)
+texture = ExtResource("6_f0jkk")
+
 [node name="RigidBody2D" type="RigidBody2D" parent="."]
+position = Vector2(-792, 0)
+gravity_scale = 0.0
+linear_velocity = Vector2(500, 0)
+angular_velocity = 1.74533
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("CircleShape2D_ipn0r")
+debug_color = Color(0, 0.6, 0.701961, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+scale = Vector2(0.145312, 0.146875)
+texture = ExtResource("5_63ebv")
+
+[node name="RigidBody2D3" type="RigidBody2D" parent="."]
+position = Vector2(-448, 0)
+gravity_scale = 0.0
+angular_velocity = 1.74533
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="RigidBody2D3"]
+shape = SubResource("CircleShape2D_ipn0r")
+debug_color = Color(0, 0.6, 0.701961, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D3"]
+scale = Vector2(0.145312, 0.146875)
+texture = ExtResource("5_63ebv")
+
+[node name="RigidBody2D2" type="RigidBody2D" parent="."]
+position = Vector2(-224, 0)
+gravity_scale = 0.0
+angular_velocity = 1.74533
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="RigidBody2D2"]
+shape = SubResource("CircleShape2D_ipn0r")
+debug_color = Color(0, 0.6, 0.701961, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D2"]
+scale = Vector2(0.145312, 0.146875)
+texture = ExtResource("5_63ebv")

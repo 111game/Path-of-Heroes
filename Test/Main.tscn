@@ -1,0 +1,46 @@
+[gd_scene load_steps=7 format=3 uid="uid://bc04jgq832nvc"]
+
+[ext_resource type="Script" path="res://Test/Main.gd" id="1_mws5i"]
+[ext_resource type="PackedScene" uid="uid://dm5jrnxmxnuof" path="res://Test/Ball.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://dkq1swbmmxmbq" path="res://Test/assets/Bouncy Platform Long.png" id="2_3bbsj"]
+[ext_resource type="PackedScene" uid="uid://w8sd8rh7cqyf" path="res://Test/Wall.tscn" id="3_l48oj"]
+
+[sub_resource type="PhysicsMaterial" id="5"]
+friction = 0.0
+bounce = 1.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q4uwu"]
+size = Vector2(86.126, 832)
+
+[node name="Main" type="Node"]
+script = ExtResource("1_mws5i")
+Ball = ExtResource("2")
+
+[node name="WallContainer" type="Node" parent="."]
+
+[node name="StaticBody2D" parent="WallContainer" instance=ExtResource("3_l48oj")]
+position = Vector2(8, -416)
+
+[node name="StaticBody2D2" parent="WallContainer" instance=ExtResource("3_l48oj")]
+position = Vector2(-400, -48)
+rotation = 1.54885
+
+[node name="StaticBody2D3" parent="WallContainer" instance=ExtResource("3_l48oj")]
+position = Vector2(8, 328)
+
+[node name="Wall4" type="StaticBody2D" parent="WallContainer"]
+position = Vector2(419.874, 38.897)
+rotation = -1.5708
+physics_material_override = SubResource("5")
+
+[node name="Sprite2D" type="Sprite2D" parent="WallContainer/Wall4"]
+position = Vector2(30.8969, 28.1261)
+scale = Vector2(3.28, 1)
+texture = ExtResource("2_3bbsj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallContainer/Wall4"]
+position = Vector2(6.89684, 44.126)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_q4uwu")
+
+[node name="Camera2D" type="Camera2D" parent="."]
